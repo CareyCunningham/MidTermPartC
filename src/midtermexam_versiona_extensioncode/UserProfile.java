@@ -12,13 +12,14 @@ package midtermexam_versiona_extensioncode;
  * Students are reminded to add themselves as modifiers when editing the
  * code.
  * @author dancye, 2019
+ * modified by Carey Cunningham 2023-02-21
  */
 public class UserProfile 
 {
     
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
-    private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+    public static final String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies   // modified from private to public static final by Carey Cunningham
     
     /**
      * A constructor that takes in the userID and the favourite genre
