@@ -13,6 +13,7 @@ package midtermexam_versiona_extensioncode;
  * code.
  * @author dancye, 2019
  * modified by Carey Cunningham 2023-02-21
+ * adding a comment to show Fetch/merge works
  */
 public class UserProfile 
 {
